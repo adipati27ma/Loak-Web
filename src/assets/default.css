@@ -318,6 +318,19 @@ section .section-title::after {
   border-bottom: 1px solid #45C875;
 }
 
+.box-container-layanan {
+  background-color: #353535;
+  padding: 2em;
+}
+
+.box-container-layanan .grid-layanan:nth-child(odd) {
+  background-color: red;
+}
+
+.box-container-layanan .grid-layanan:nth-child(even) {
+  background-color: blue;
+}
+
 .home-gallery-container {
   display: -ms-grid;
   display: grid;
