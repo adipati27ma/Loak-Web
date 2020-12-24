@@ -85,11 +85,20 @@ export default function Home() {
 
           <div className="box-container-layanan">
             <Grid container justify="space-evenly">
-              <Grid item xs={12} md={6} className="grid-layanan">
-                Ini Satu
+              <Grid
+                item
+                xs={12}
+                md={4}
+                className="grid-layanan"
+                alignItems="center"
+              >
+                <p>Layanan Satu</p>
               </Grid>
-              <Grid item xs={12} md={6} className="grid-layanan">
-                Ini Dua
+              <Grid item xs={12} md={4} className="grid-layanan">
+                <p>Layanan Dua</p>
+              </Grid>
+              <Grid item xs={12} md={4} className="grid-layanan">
+                <p>Layanan Tiga</p>
               </Grid>
             </Grid>
           </div>

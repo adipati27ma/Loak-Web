@@ -344,6 +344,14 @@ section {
   background-color: #353535;
   padding: 2em;
 
+  p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+  }
+
   .grid-layanan:nth-child(odd) {
     background-color: red;
   }
